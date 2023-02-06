@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/visitCard/static/css/main.7acaea2f.css",
+    "main.js": "/visitCard/static/js/main.9b986e72.js",
+    "index.html": "/visitCard/index.html",
+    "main.7acaea2f.css.map": "/visitCard/static/css/main.7acaea2f.css.map",
+    "main.9b986e72.js.map": "/visitCard/static/js/main.9b986e72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.9b986e72.js"
+  ]
+}
