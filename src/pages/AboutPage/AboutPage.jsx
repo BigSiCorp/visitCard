@@ -1,7 +1,11 @@
+import { Section } from 'utils/globalStyles';
+
 export const AboutPage = () => {
   return (
-    <>
-      <h1>About</h1>
-    </>
+    <main>
+      <Section>
+        <h1>About</h1>
+      </Section>
+    </main>
   );
 };

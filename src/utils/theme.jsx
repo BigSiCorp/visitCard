@@ -1,7 +1,8 @@
 const theme = {
   colors: {
     accent: '#F59256',
-    mainBackground: '#FDF7F2',
+    mainBackground: '#bdf7ff4d', //---------------------------------------------------------//
+    icons: '#51a3d0',
     secondaryBackground: '#ffffff',
     mainText: '#111111',
     searchText: '#535353',

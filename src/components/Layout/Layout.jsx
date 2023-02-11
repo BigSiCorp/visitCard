@@ -9,6 +9,10 @@ import {
   Logo2,
   Link,
   Footer,
+  ContactList,
+  IconInstargram,
+  IconTelegram,
+  IconYoutube,
 } from './Layout.styled';
 
 export const Layout = () => {
@@ -18,8 +22,8 @@ export const Layout = () => {
         <Header>
           <a href="/visitCard/">
             <div>
-              <Logo1 src={LogoPic1} alt="logo" width="200" />
-              <Logo2 src={LogoPic2} alt="logo" width="200" />
+              <Logo1 src={LogoPic1} alt="logo" width="120" />
+              <Logo2 src={LogoPic2} alt="logo" width="120" />
             </div>
           </a>
           <nav>
@@ -27,21 +31,28 @@ export const Layout = () => {
             Обо мне
           </Link> */}
             <Link to="/about" end>
-              Обо мне
+              Про мене
             </Link>
             <Link to="/blog">Блог</Link>
-            <Link to="/contacts">Контакты</Link>
-            <Link to="/questions">Частые вопросы</Link>
+            <Link to="/contacts">Контакти</Link>
+            <Link to="/questions">Часті питання</Link>
           </nav>
         </Header>
         <Outlet />
       </Container>
       <ContainerFooter>
         <Footer>
-          <ul>
-            <li>Телеграмм</li>
-            <li>Инстаграмм</li>
-          </ul>
+          <ContactList>
+            <li>
+              <IconTelegram />
+            </li>
+            <li>
+              <IconInstargram />
+            </li>
+            <li>
+              <IconYoutube />
+            </li>
+          </ContactList>
         </Footer>
       </ContainerFooter>
     </>
