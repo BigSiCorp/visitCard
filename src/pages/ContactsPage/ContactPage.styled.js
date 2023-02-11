@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { FaTelegram, FaInstagram } from 'react-icons/fa';
 
 export const PageTitle = styled.h2`
   margin: 0 auto 30px;
@@ -37,7 +36,9 @@ export const PriceInfo1 = styled.p`
   font-size: ${p => p.theme.fontSize.fs24};
   text-align: center;
 `;
-
+export const Img = styled.img`
+  border-radius: 40px;
+`;
 export const Conditions = styled.p`
   margin-bottom: 20px;
   font-size: ${p => p.theme.fontSize.fs20};
@@ -51,16 +52,12 @@ export const ContactsList = styled.ul`
   margin-bottom: 100px;
 `;
 
-export const IconInstargram = styled(FaInstagram)`
+export const Icon = styled.img`
   margin-left: 10px;
   width: 30px;
   height: 30px;
-  color: ${p => p.theme.colors.icons};
+  position: absolute;
 `;
-
-export const IconTelegram = styled(FaTelegram)`
-  margin-left: 10px;
-  width: 30px;
-  height: 30px;
-  color: ${p => p.theme.colors.icons};
+export const ContactsIteam = styled.li`
+  margin-bottom: 15px;
 `;
