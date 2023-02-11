@@ -1,7 +1,10 @@
+import { Section } from 'utils/globalStyles';
 export const BlogPage = () => {
   return (
-    <>
-      <h1>Blog</h1>
-    </>
+    <main>
+      <Section>
+        <h1>Blog</h1>
+      </Section>
+    </main>
   );
 };

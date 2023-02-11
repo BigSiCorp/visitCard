@@ -1,7 +1,11 @@
+import { Section } from 'utils/globalStyles';
+
 export const FAQPage = () => {
   return (
-    <>
-      <h1>FAQ</h1>
-    </>
+    <main>
+      <Section>
+        <h1>FAQ</h1>
+      </Section>
+    </main>
   );
 };

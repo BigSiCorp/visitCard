@@ -4,14 +4,16 @@ import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { App } from 'components/App';
 import theme from './utils/theme';
+import { GlobalStyle } from './utils/globalStyles';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <ThemeProvider theme={theme}>
+  <React.StrictMode>
     <BrowserRouter basename="/visitCard/">
-      <React.StrictMode>
+      <ThemeProvider theme={theme}>
         <App />
-      </React.StrictMode>
+        <GlobalStyle />
+      </ThemeProvider>
     </BrowserRouter>
-  </ThemeProvider>
+  </React.StrictMode>
 );
