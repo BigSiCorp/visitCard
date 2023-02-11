@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/visitCard/static/css/main.7acaea2f.css",
-    "main.js": "/visitCard/static/js/main.be9e61f5.js",
+    "main.js": "/visitCard/static/js/main.44eee00c.js",
     "static/media/logo1.png": "/visitCard/static/media/logo1.86eecbac8b45f876805e.png",
     "static/media/logo2.png": "/visitCard/static/media/logo2.274d122eaddea24dd270.png",
     "index.html": "/visitCard/index.html",
     "main.7acaea2f.css.map": "/visitCard/static/css/main.7acaea2f.css.map",
-    "main.be9e61f5.js.map": "/visitCard/static/js/main.be9e61f5.js.map"
+    "main.44eee00c.js.map": "/visitCard/static/js/main.44eee00c.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.be9e61f5.js"
+    "static/js/main.44eee00c.js"
   ]
 }
