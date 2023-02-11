@@ -14,6 +14,7 @@ import {
   Footer,
   ContactList,
   Icon,
+  Pretitle,
 } from './Layout.styled';
 
 export const Layout = () => {
@@ -43,6 +44,7 @@ export const Layout = () => {
       </Container>
       <ContainerFooter>
         <Footer>
+          <Pretitle>Приєднуйся:</Pretitle>
           <ContactList>
             <li>
               <a href="https://t.me/Lenatai" target="blanc">

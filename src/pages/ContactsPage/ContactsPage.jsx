@@ -12,6 +12,7 @@ import {
   ContactsList,
   Icon,
   Conditions,
+  Condition,
   Img,
   ContactsIteam,
 } from './ContactPage.styled';
@@ -38,8 +39,10 @@ export const ContactsPage = () => {
                 </a>
               </ContactsIteam>
             </ContactsList>
-            <PriceInfo>Вартість одного сеансу (60 хвилин)</PriceInfo>
-            <PriceInfo1>1 000 грн.</PriceInfo1>
+            <div>
+              <PriceInfo>Вартість одного сеансу (60 хвилин)</PriceInfo>
+              <PriceInfo1>1 000 грн.</PriceInfo1>
+            </div>
           </InfoBox>
           <Img src={PlaceForMeet} alt="терасса у моря" width="800" />
         </Box>
@@ -47,9 +50,8 @@ export const ContactsPage = () => {
           Попасть на прием можно только по предварительной записи любым удобным
           способом, указанными выше. Сеансы проходят только в онлайн формате.
         </Conditions>
-        <Conditions>
-          График работы: Вторник – суббота с 11:00 до 19:30.
-        </Conditions>
+        <Condition>График работы:</Condition>
+        <Conditions>Вторник – суббота с 11:00 до 19:30.</Conditions>
         <Conditions>Понедельник и воскресенье – нерабочие дни.</Conditions>
       </Section>
     </main>

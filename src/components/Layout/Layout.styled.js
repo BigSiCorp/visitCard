@@ -81,5 +81,9 @@ export const ContactList = styled.ul`
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+`;
+export const Pretitle = styled.p`
+  font-size: 20px;
+  font-weight: ${p => p.theme.fontWeight.fw600};
   margin-left: auto;
 `;

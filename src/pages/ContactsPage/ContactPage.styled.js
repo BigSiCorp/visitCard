@@ -15,25 +15,33 @@ export const Box = styled.div`
 `;
 
 export const InfoBox = styled.div`
-  padding: 65px 0;
+  padding: 86px 10px;
+  background-color: #fff;
+  border-radius: 40px;
+  margin-right: 15px;
+  box-shadow: 5px 5px 8px 2px rgba(0, 0, 0, 0.3);
 `;
 
 export const BoxTitle = styled.p`
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
+  margin-top: 20px;
   font-size: ${p => p.theme.fontSize.fs20};
   font-weight: ${p => p.theme.fontWeight.fw700};
 `;
 
 export const PriceInfo = styled.p`
   margin-bottom: 20px;
+  text-align: center;
   font-size: ${p => p.theme.fontSize.fs24};
   /* font-weight: ${p => p.theme.fontWeight.fw700}; */
-  /* text-align: center; */
 `;
 
 export const PriceInfo1 = styled.p`
   margin-bottom: 20px;
   font-size: ${p => p.theme.fontSize.fs24};
+  font-weight: ${p => p.theme.fontWeight.fw700};
   text-align: center;
 `;
 export const Img = styled.img`
@@ -43,13 +51,18 @@ export const Conditions = styled.p`
   margin-bottom: 20px;
   font-size: ${p => p.theme.fontSize.fs20};
 `;
+export const Condition = styled.p`
+  margin-bottom: 20px;
+  font-weight: ${p => p.theme.fontWeight.fw700};
+  font-size: ${p => p.theme.fontSize.fs20};
+`;
 
 export const ContactsList = styled.ul`
   display: flex;
   gap: 10px;
   flex-direction: column;
   font-size: ${p => p.theme.fontSize.fs20};
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 `;
 
 export const Icon = styled.img`
