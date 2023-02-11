@@ -1,6 +1,9 @@
 import { Outlet } from 'react-router-dom';
 import LogoPic1 from '../../images/logo1.png';
 import LogoPic2 from '../../images/logo2.png';
+import IconInstargram from '../../images/insta.svg';
+import IconYoutube from '../../images/youtube.svg';
+import IconTelegram from '../../images/telegram.svg';
 import {
   Container,
   ContainerFooter,
@@ -10,9 +13,7 @@ import {
   Link,
   Footer,
   ContactList,
-  IconInstargram,
-  IconTelegram,
-  IconYoutube,
+  Icon,
 } from './Layout.styled';
 
 export const Layout = () => {
@@ -44,13 +45,19 @@ export const Layout = () => {
         <Footer>
           <ContactList>
             <li>
-              <IconTelegram />
+              <a href="https://t.me/Lenatai" target="blanc">
+                <Icon src={IconTelegram} alt="Telegram Icon" />
+              </a>
             </li>
             <li>
-              <IconInstargram />
+              <a href="/" target="blanc">
+                <Icon src={IconInstargram} alt="Instagram Icon" />
+              </a>
             </li>
             <li>
-              <IconYoutube />
+              <a href="/" target="blanc">
+                <Icon src={IconYoutube} alt="Youtube Icon" />
+              </a>
             </li>
           </ContactList>
         </Footer>

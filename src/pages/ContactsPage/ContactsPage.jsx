@@ -1,5 +1,7 @@
 import { Section } from 'utils/globalStyles';
 import PlaceForMeet from '../../images/Place_for_meet.jpg';
+import IconInstargram from '../../images/insta.svg';
+import IconTelegram from '../../images/telegram.svg';
 import {
   PageTitle,
   Box,
@@ -8,9 +10,10 @@ import {
   PriceInfo,
   PriceInfo1,
   ContactsList,
-  IconInstargram,
-  IconTelegram,
+  Icon,
   Conditions,
+  Img,
+  ContactsIteam,
 } from './ContactPage.styled';
 
 export const ContactsPage = () => {
@@ -22,19 +25,23 @@ export const ContactsPage = () => {
           <InfoBox>
             <BoxTitle>Запис на консультацію</BoxTitle>
             <ContactsList>
-              <li>
+              <ContactsIteam>
                 через телеграм:
-                <IconTelegram />
-              </li>
-              <li>
+                <a href="https://t.me/Lenatai" target="blanc">
+                  <Icon src={IconTelegram} alt="Telegram Icon" />
+                </a>
+              </ContactsIteam>
+              <ContactsIteam>
                 через інстаграм:
-                <IconInstargram />
-              </li>
+                <a href="/" target="blanc">
+                  <Icon src={IconInstargram} alt="Instagram Icon" />
+                </a>
+              </ContactsIteam>
             </ContactsList>
             <PriceInfo>Вартість одного сеансу (60 хвилин)</PriceInfo>
             <PriceInfo1>1 000 грн.</PriceInfo1>
           </InfoBox>
-          <img src={PlaceForMeet} alt="терасса у моря" width="800" />
+          <Img src={PlaceForMeet} alt="терасса у моря" width="800" />
         </Box>
         <Conditions>
           Попасть на прием можно только по предварительной записи любым удобным

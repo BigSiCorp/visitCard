@@ -1,28 +1,17 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import { FaTelegram, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export const Container = styled.div`
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 16px;
 `;
-export const IconInstargram = styled(FaInstagram)`
+
+export const Icon = styled.img`
   width: 30px;
   height: 30px;
-  color: ${p => p.theme.colors.icons};
-`;
-export const IconTelegram = styled(FaTelegram)`
-  width: 30px;
-  height: 30px;
-  color: ${p => p.theme.colors.icons};
 `;
 
-export const IconYoutube = styled(FaYoutube)`
-  width: 30px;
-  height: 30px;
-  color: ${p => p.theme.colors.icons};
-`;
 export const ContainerFooter = styled.div`
   max-width: 1120px;
   margin: 0 auto;
