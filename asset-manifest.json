@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/visitCard/static/css/main.7acaea2f.css",
-    "main.js": "/visitCard/static/js/main.44eee00c.js",
+    "main.js": "/visitCard/static/js/main.1b429810.js",
+    "static/media/Place_for_meet.jpg": "/visitCard/static/media/Place_for_meet.faa867891e6c4090ce76.jpg",
     "static/media/logo1.png": "/visitCard/static/media/logo1.86eecbac8b45f876805e.png",
     "static/media/logo2.png": "/visitCard/static/media/logo2.274d122eaddea24dd270.png",
     "index.html": "/visitCard/index.html",
     "main.7acaea2f.css.map": "/visitCard/static/css/main.7acaea2f.css.map",
-    "main.44eee00c.js.map": "/visitCard/static/js/main.44eee00c.js.map"
+    "main.1b429810.js.map": "/visitCard/static/js/main.1b429810.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.44eee00c.js"
+    "static/js/main.1b429810.js"
   ]
 }
