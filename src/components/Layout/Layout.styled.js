@@ -50,17 +50,30 @@ export const Logo2 = styled.img`
   margin: 0;
   cursor: pointer;
 `;
+export const Logo3 = styled.img`
+  margin: 0;
+  cursor: pointer;
+  margin-top: 10px;
+`;
 
+export const Nav = styled.nav`
+  display: flex;
+  gap: 20px;
+`;
 export const Link = styled(NavLink)`
   padding: 8px 16px;
   border-radius: 4px;
   text-decoration: none;
-  color: black;
-  font-weight: 500;
+  color: white;
+  background-color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+
+  border-radius: 40px;
 
   &.active {
     color: white;
-    background-color: orangered;
+    background-color: #0b23ff;
   }
 `;
 
