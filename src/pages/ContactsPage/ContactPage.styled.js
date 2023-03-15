@@ -1,13 +1,5 @@
 import styled from 'styled-components';
 
-export const PageTitle = styled.h2`
-  margin: 0 auto 30px;
-  display: block;
-  text-align: center;
-  font-weight: 700;
-  font-size: 64px;
-`;
-
 export const Box = styled.div`
   display: flex;
   justify-content: space-between;

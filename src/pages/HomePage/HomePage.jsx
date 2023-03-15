@@ -1,10 +1,11 @@
 import { Section } from 'utils/globalStyles';
+import { PageTitle } from '../../components/Common/PageTitle/PageTitle';
 
 export const HomePage = () => {
   return (
     <main>
       <Section>
-        <h1>Hello</h1>
+        <PageTitle text="Hello" />
       </Section>
     </main>
   );
