@@ -1,9 +1,11 @@
 import { Section } from 'utils/globalStyles';
+import { PageTitle } from '../../components/Common/PageTitle/PageTitle';
+
 export const BlogPage = () => {
   return (
     <main>
       <Section>
-        <h1>Blog</h1>
+        <PageTitle text="Блог" />
       </Section>
     </main>
   );

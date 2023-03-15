@@ -3,7 +3,6 @@ import PlaceForMeet from '../../images/Place_for_meet.jpg';
 import IconInstargram from '../../images/insta.svg';
 import IconTelegram from '../../images/telegram.svg';
 import {
-  PageTitle,
   Box,
   InfoBox,
   BoxTitle,
@@ -17,12 +16,13 @@ import {
   ContactsIteam,
   ConditionsText,
 } from './ContactPage.styled';
-
+import { PageTitle } from '../../components/Common/PageTitle/PageTitle';
 export const ContactsPage = () => {
   return (
     <main>
       <Section>
-        <PageTitle>Контакти</PageTitle>
+        <PageTitle text="Контакти" />
+
         <Box>
           <InfoBox>
             <div>
