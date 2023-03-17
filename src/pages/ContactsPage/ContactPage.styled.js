@@ -4,7 +4,6 @@ export const Box = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: raw;
-  padding: 15px 0 25px;
   justify-content: center;
 `;
 
@@ -52,24 +51,26 @@ export const Img = styled.img`
 `;
 export const Conditions = styled.p`
   margin-bottom: 20px;
+
   font-size: ${p => p.theme.fontSize.fs20};
   font-weight: 600;
   font-size: 24px;
 `;
 export const ConditionsText = styled.p`
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: ${p => p.theme.fontSize.fs20};
 
   font-size: 24px;
 `;
 export const Condition = styled.p`
-  margin-bottom: 20px;
+  margin-bottom: 35px;
+  margin-top: 45px;
   font-size: 24px;
   letter-spacing: 0.05em;
   line-height: 1.2;
   color: #000000;
   text-align: center;
-  font-weight: 700;
+
   font-weight: ${p => p.theme.fontWeight.fw700};
 `;
 
