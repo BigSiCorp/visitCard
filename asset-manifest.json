@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/visitCard/static/css/main.7acaea2f.css",
-    "main.js": "/visitCard/static/js/main.d02d4a35.js",
+    "main.js": "/visitCard/static/js/main.2b4b97a0.js",
     "static/media/Place_for_meet.jpg": "/visitCard/static/media/Place_for_meet.faa867891e6c4090ce76.jpg",
     "static/media/Olena.jpg": "/visitCard/static/media/Olena.e35ca27c4c9c5814b479.jpg",
     "static/media/logo1.png": "/visitCard/static/media/logo1.86eecbac8b45f876805e.png",
     "static/media/light.jpg": "/visitCard/static/media/light.5403ca73ab022cf89667.jpg",
     "static/media/logo2.png": "/visitCard/static/media/logo2.274d122eaddea24dd270.png",
     "static/media/logo3.png": "/visitCard/static/media/logo3.c604a0053d1925722c87.png",
+    "static/media/search.svg": "/visitCard/static/media/search.9f9ac3e1d0ed8f3607af7b0a57284c93.svg",
+    "static/media/love.svg": "/visitCard/static/media/love.294936021eaed3c2f0be3311f80bb312.svg",
     "static/media/insta.svg": "/visitCard/static/media/insta.2a6bdeb101851f257f7bd377d128faf2.svg",
+    "static/media/dollar.svg": "/visitCard/static/media/dollar.e2aca9e263abbfd2d6a49f4dbb709a78.svg",
+    "static/media/broken-heart.svg": "/visitCard/static/media/broken-heart.7bffb2e6c19f537f5f8f71b938fb6c1b.svg",
     "static/media/telegram.svg": "/visitCard/static/media/telegram.b4bd5e9e6fabbf210ce1ea20ea01f5fe.svg",
     "static/media/youtube.svg": "/visitCard/static/media/youtube.35f58caaece68f411869c34973b98781.svg",
     "index.html": "/visitCard/index.html",
     "main.7acaea2f.css.map": "/visitCard/static/css/main.7acaea2f.css.map",
-    "main.d02d4a35.js.map": "/visitCard/static/js/main.d02d4a35.js.map"
+    "main.2b4b97a0.js.map": "/visitCard/static/js/main.2b4b97a0.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.d02d4a35.js"
+    "static/js/main.2b4b97a0.js"
   ]
 }
