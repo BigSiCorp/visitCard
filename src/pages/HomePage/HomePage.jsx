@@ -8,9 +8,20 @@ import {
   BoxImg,
   Span,
   PreTitle,
+  Content,
+  List,
+  Item,
+  Icon,
+  Subtitle,
+  Caption,
+  Text,
 } from './HomePage.styled';
 import PhotoOfOlena from '../../images/Olena.jpg';
 import Light from '../../images/light.jpg';
+import Search from '../../images/search.svg';
+import Dollar from '../../images/dollar.svg';
+import Broken from '../../images/broken-heart.svg';
+import Love from '../../images/love.svg';
 export const HomePage = () => {
   return (
     <main>
@@ -40,6 +51,32 @@ export const HomePage = () => {
             </PreTitle>
           </p>
         </Container>
+        <Content>
+          <Caption> Працюю з такими запитами:</Caption>
+          <List>
+            <Item>
+              <Icon src={Search} alt="search" />
+              <Subtitle>Пошуки себе, сенс життя, призначення.</Subtitle>
+            </Item>
+            <Item>
+              <Icon src={Dollar} alt="dollar" />
+              <Subtitle>Фінанси. Вчимося заробляти більше.</Subtitle>
+            </Item>
+            <Item>
+              <Icon src={Broken} alt="broken" />
+              <Subtitle>Проблеми у стосунках.</Subtitle>
+            </Item>
+            <Item>
+              <Icon src={Love} alt="love" />
+              <Subtitle>Партнерські відносини.</Subtitle>
+            </Item>
+          </List>
+          <Text>
+            Працювати з психологом рекомендую протягом 1-3 місяців,
+            зустрічаючись 1 раз на тиждень, все індивідуально, разова сесія
+            також можлива.
+          </Text>
+        </Content>
       </Section>
     </main>
   );
