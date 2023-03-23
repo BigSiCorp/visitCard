@@ -21,21 +21,21 @@ export const ContactsPage = () => {
   return (
     <main>
       <Section>
-        <PageTitle text="Контакти" />
+        <PageTitle text="Контакты" />
 
         <Box>
           <InfoBox>
             <div>
-              <BoxTitle>Запис на консультацію</BoxTitle>
+              <BoxTitle>Запись на консультацию</BoxTitle>
               <ContactsList>
                 <ContactsIteam>
-                  через телеграм:
+                  через телеграмм:
                   <a href="https://t.me/Lenatai" target="blanc">
                     <Icon src={IconTelegram} alt="Telegram Icon" />
                   </a>
                 </ContactsIteam>
                 <ContactsIteam>
-                  через інстаграм:
+                  через инстаграмм:
                   <a
                     href="https://www.instagram.com/elenabrapsy/"
                     target="blanc"
@@ -46,15 +46,14 @@ export const ContactsPage = () => {
               </ContactsList>
             </div>
             <div>
-              <PriceInfo>Вартість одного сеансу (60 хвилин)</PriceInfo>
-              <PriceInfo1>1 000 грн.</PriceInfo1>
+              <PriceInfo>Продолжительность одного сеанса</PriceInfo>
+              <PriceInfo1>60мин</PriceInfo1>
             </div>
           </InfoBox>
         </Box>
 
         <Condition>График работы:</Condition>
-        <Conditions>Вторник – суббота с 11:00 до 19:30.</Conditions>
-        <Conditions>Понедельник и воскресенье – нерабочие дни.</Conditions>
+        <Conditions>Понедельник – воскресенье с 09:00 до 21:00.</Conditions>
         <ConditionsText>
           Попасть на прием можно только по предварительной записи любым удобным
           способом, указанными выше. Сеансы проходят только в онлайн формате.

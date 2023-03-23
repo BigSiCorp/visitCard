@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Layout } from './Layout/Layout';
 import { HomePage } from '../pages/HomePage/HomePage';
 import { AboutPage } from '../pages/AboutPage/AboutPage';
-import { BlogPage } from 'pages/BlogPage/BlogPage';
+import { BlogPage } from 'pages/NewsPage/NewsPage';
 import { ContactsPage } from 'pages/ContactsPage/ContactsPage';
 import { FAQPage } from 'pages/FAQPage/FAQPage';
 export const App = () => {
