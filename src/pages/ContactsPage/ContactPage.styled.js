@@ -42,7 +42,6 @@ export const PriceInfo1 = styled.p`
   font-size: ${p => p.theme.fontSize.fs24};
   font-weight: ${p => p.theme.fontWeight.fw700};
   text-align: center;
-  color: #ed2323;
 `;
 export const Img = styled.img`
   border-radius: 40px;

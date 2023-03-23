@@ -65,16 +65,64 @@ export const Link = styled(NavLink)`
   border-radius: 4px;
   text-decoration: none;
   color: white;
-  background-color: #000000;
+  background-color: #136974;
   font-weight: 700;
   font-size: 20px;
 
   border-radius: 40px;
 
-  &.active {
-    color: white;
-    background-color: #0b23ff;
+ position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  :hover,
+  :focus {
+    transform: scale(1.05);
+    transition: transform 0.5s;
   }
+  :hover:before {
+    left: 100%;
+  }
+
+  :before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(255, 250, 250, 0.9),
+      transparent
+    );
+    transition: all 650ms;
+  }
+
+  &.active {
+    background: #000 ;
+    border-radius: 40px;
+    color: #fff;
+
+    :hover:before {
+      left: 100%;
+    }
+
+    :before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.6),
+        transparent
+      );
+      transition: all 650ms;
+    }
 `;
 
 export const Footer = styled.footer`

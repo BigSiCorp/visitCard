@@ -13,12 +13,12 @@ export const AboutPage = () => {
   return (
     <main>
       <Section>
-        <PageTitle text="Про мене" />
+        <PageTitle text="Обо мне" />
         <Box>
           <Img src={PhotoOfOlena} alt="Photo of Olena" />
           <BoxText>
             <p>
-              <Span>Олена Бра</Span> - дипломований практикуючий
+              <Span>Елена Бра</Span> - дипломированный практикующий
               психолог-консультант, коуч.
             </p>
             <p>

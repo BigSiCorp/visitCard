@@ -35,9 +35,9 @@ export const Layout = () => {
             <Link to="/about" end>
               Про мене
             </Link>
-            <Link to="/blog">Блог</Link>
-            <Link to="/contacts">Контакти</Link>
-            <Link to="/questions">Часті питання</Link>
+            <Link to="/blog">Новости</Link>
+            <Link to="/contacts">Контакты</Link>
+            <Link to="/questions">Вопросы</Link>
           </Nav>
         </Header>
         <Outlet />
@@ -47,7 +47,7 @@ export const Layout = () => {
           <a href="/visitCard/">
             <Logo3 src={LogoPic3} alt="logo" width="180" />
           </a>
-          <Pretitle>Приєднуйся:</Pretitle>
+          <Pretitle>Присоединяйся:</Pretitle>
           <ContactList>
             <li>
               <a href="https://t.me/Lenatai" target="blanc">
