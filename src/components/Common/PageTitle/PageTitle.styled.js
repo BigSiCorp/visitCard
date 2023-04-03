@@ -5,5 +5,8 @@ export const Title = styled.h2`
   display: block;
   text-align: center;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 30px;
+  @media (min-width: 768px) {
+    font-size: 50px;
+  }
 `;
