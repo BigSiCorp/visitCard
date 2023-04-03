@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/visitCard/static/css/main.7acaea2f.css",
-    "main.js": "/visitCard/static/js/main.af74ff75.js",
+    "main.js": "/visitCard/static/js/main.a15aa5b3.js",
     "static/media/1.png": "/visitCard/static/media/1.968522317b6b6e5522db.png",
     "static/media/Place_for_meet.jpg": "/visitCard/static/media/Place_for_meet.faa867891e6c4090ce76.jpg",
     "static/media/Olena.jpg": "/visitCard/static/media/Olena.b182195a655523ba8fef.jpg",
@@ -19,10 +19,10 @@
     "static/media/youtube.svg": "/visitCard/static/media/youtube.35f58caaece68f411869c34973b98781.svg",
     "index.html": "/visitCard/index.html",
     "main.7acaea2f.css.map": "/visitCard/static/css/main.7acaea2f.css.map",
-    "main.af74ff75.js.map": "/visitCard/static/js/main.af74ff75.js.map"
+    "main.a15aa5b3.js.map": "/visitCard/static/js/main.a15aa5b3.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.af74ff75.js"
+    "static/js/main.a15aa5b3.js"
   ]
 }
