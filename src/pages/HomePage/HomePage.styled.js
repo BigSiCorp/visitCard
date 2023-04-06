@@ -82,10 +82,12 @@ export const Content = styled.div`
   background: rgba(240, 251, 251, 0.65);
   border-radius: 40px;
   padding: 20px;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   @media (min-width: 768px) {
     padding: 38px 75px;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 `;
 
@@ -95,8 +97,8 @@ export const List = styled.ul`
   justify-content: space-between;
   row-gap: 30px;
 
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
   @media (min-width: 768px) {
     width: 217px;
@@ -104,6 +106,8 @@ export const List = styled.ul`
     justify-content: none;
     row-gap: none;
     gap: 54px;
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 `;
 
@@ -116,26 +120,44 @@ export const Item = styled.li`
   padding: 15px;
   align-items: center;
   width: calc((100% - 5%) / 2);
+  min-height: 153px;
   @media (min-width: 768px) {
     width: 217px;
   }
 `;
 export const Icon = styled.img`
   width: 64px;
-  height: 64px;
+  height: 50px;
+  @media (min-width: 768px) {
+    height: 64px;
+  }
 `;
-export const Subtitle = styled.p`
+export const Subtitle = styled.div`
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
   text-align: center;
-  font-size: 18px;
+  font-size: 14x;
   line-height: 1.2;
-  margin-top: 15px;
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+    margin-top: 15px;
+  }
 `;
 export const Caption = styled.h1`
   text-align: center;
+  font-size: 20px;
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
 `;
 export const Text = styled.p`
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.05em;
   text-align: center;
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
 `;

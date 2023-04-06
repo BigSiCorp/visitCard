@@ -147,4 +147,9 @@ export const Pretitle = styled.p`
   font-size: 20px;
   font-weight: ${p => p.theme.fontWeight.fw600};
   margin-left: auto;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
 `;
