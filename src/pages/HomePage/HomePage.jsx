@@ -60,19 +60,19 @@ export const HomePage = () => {
             <Item>
               <Icon src={Search} alt="search" />
 
-              <Subtitle>Поиски себя, смысл жизни, предназначение.</Subtitle>
+              <Subtitle>Поиски себя, смысл жизни, предназначение</Subtitle>
             </Item>
             <Item>
               <Icon src={Dollar} alt="dollar" />
-              <Subtitle>Деньги. Учимся зарабатывать больше.</Subtitle>
+              <Subtitle>Деньги. Учимся зарабатывать больше</Subtitle>
             </Item>
             <Item>
               <Icon src={Broken} alt="broken" />
-              <Subtitle>Проблемы в отношениях.</Subtitle>
+              <Subtitle>Проблемы в отношениях</Subtitle>
             </Item>
             <Item>
               <Icon src={Love} alt="love" />
-              <Subtitle>Партнерские отношения.</Subtitle>
+              <Subtitle>Партнерские отношения</Subtitle>
             </Item>
           </List>
           <Text>
