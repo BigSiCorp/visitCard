@@ -53,10 +53,13 @@ export const HomePage = () => {
           </div>
         </Container>
         <Content>
-          <Caption>Работаю со следующими запросами:</Caption>
+          <Caption>
+            Работаю со следующими<br></br> запросами:
+          </Caption>
           <List>
             <Item>
               <Icon src={Search} alt="search" />
+
               <Subtitle>Поиски себя, смысл жизни, предназначение.</Subtitle>
             </Item>
             <Item>
