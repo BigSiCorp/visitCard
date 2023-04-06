@@ -5,7 +5,6 @@ export const BoxText = styled.div`
   border-radius: 20px;
   font-size: 14px;
   line-height: 1.5;
-  min-width: 320px;
   letter-spacing: 0.05em;
   text-align: center;
   padding: 10px;
@@ -81,9 +80,12 @@ export const PreTitle = styled.p`
 export const Content = styled.div`
   background: rgba(240, 251, 251, 0.65);
   border-radius: 40px;
-  padding: 20px;
+  padding: 12px;
   margin-top: 30px;
   margin-bottom: 30px;
+  @media (min-width: 381px) {
+    padding: 15px;
+  }
   @media (min-width: 768px) {
     padding: 38px 75px;
     margin-top: 70px;
@@ -95,17 +97,17 @@ export const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 30px;
-
+  row-gap: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
 
   @media (min-width: 768px) {
-    width: 217px;
-    flex-wrap: nowrap;
     justify-content: none;
-    row-gap: none;
-    gap: 54px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    row-gap: 30px;
+  }
+  @media (min-width: 1280px) {
     margin-top: 60px;
     margin-bottom: 60px;
   }
@@ -119,9 +121,12 @@ export const Item = styled.li`
   border-radius: 15px;
   padding: 15px;
   align-items: center;
-  width: calc((100% - 5%) / 2);
+  width: calc((100% - 4%) / 2);
   min-height: 153px;
-  @media (min-width: 768px) {
+  @media (min-width: 381px) {
+    width: calc((100% - 5%) / 2);
+  }
+  @media (min-width: 1280px) {
     width: 217px;
   }
 `;

@@ -45,7 +45,19 @@ export const Layout = () => {
       <ContainerFooter>
         <Footer>
           <a href="/visitCard/">
-            <Logo3 src={LogoPic3} alt="logo" width="180" />
+            <picture>
+              <source
+                srcset={LogoPic3}
+                media="(max-width: 380px)"
+                width="100"
+              />
+              <source
+                srcset={LogoPic3}
+                media="(min-width: 381px)"
+                width="180"
+              />
+              <Logo3 src={LogoPic3} alt="logo" />
+            </picture>
           </a>
           <Pretitle>Присоединяйся:</Pretitle>
           <ContactList>
