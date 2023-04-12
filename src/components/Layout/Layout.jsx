@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom';
+// import { useMedia } from 'react-use';
 import LogoPic1 from '../../images/logo1.png';
 import LogoPic2 from '../../images/logo2.png';
 import LogoPic3 from '../../images/logo3.png';
