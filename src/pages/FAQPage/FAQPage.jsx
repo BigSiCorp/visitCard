@@ -1,8 +1,11 @@
+import { useState } from 'react';
 import { Section } from 'utils/globalStyles';
 import { FAQList, FAQIteam, FAQTitle, FAQBox } from '../FAQPage/FAQPage.styled';
 import { PageTitle } from '../../components/Common/PageTitle/PageTitle';
 
 export const FAQPage = () => {
+  const [state, setState] = useState(false);
+
   return (
     <main>
       <Section>
@@ -10,16 +13,20 @@ export const FAQPage = () => {
 
         <FAQList>
           <FAQIteam>
-            <FAQTitle>
-              Як можна записатися на терапію? Яка тривалість сесії?
-            </FAQTitle>
-            <FAQBox>
-              <p>
-                Я працюю в телеграм,skype,instagram. Для запису напишіть
-                особисті повідомлення в телеграм або інстаграм. Тривалість сесії
-                40-60 хвилин.
-              </p>
-            </FAQBox>
+            <button type="button" onClick={() => setState(!state)}>
+              <FAQTitle>
+                Як можна записатися на терапію? Яка тривалість сесії?
+              </FAQTitle>
+              {state && (
+                <FAQBox>
+                  <p>
+                    Я працюю в телеграм,skype,instagram. Для запису напишіть
+                    особисті повідомлення в телеграм або інстаграм. Тривалість
+                    сесії 40-60 хвилин.
+                  </p>
+                </FAQBox>
+              )}
+            </button>
           </FAQIteam>
           <FAQIteam>
             <FAQTitle>Навіщо працювати із психологом?</FAQTitle>

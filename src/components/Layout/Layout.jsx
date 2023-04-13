@@ -48,12 +48,12 @@ export const Layout = () => {
           <a href="/visitCard/">
             <picture>
               <source
-                srcset={LogoPic3}
+                srcSet={LogoPic3}
                 media="(max-width: 380px)"
                 width="100"
               />
               <source
-                srcset={LogoPic3}
+                srcSet={LogoPic3}
                 media="(min-width: 381px)"
                 width="180"
               />
