@@ -26,6 +26,8 @@ export const FAQIteam = styled.li`
   padding: 30px;
   background: rgba(255, 254, 254, 0.68);
   border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
 `;
 export const FAQTitle = styled.p`
   font-weight: 700;

@@ -15,6 +15,7 @@ import {
   Img,
   ContactsIteam,
   ConditionsText,
+  BoxPriceInfo,
 } from './ContactPage.styled';
 import { PageTitle } from '../../components/Common/PageTitle/PageTitle';
 export const ContactsPage = () => {
@@ -45,10 +46,10 @@ export const ContactsPage = () => {
                 </ContactsIteam>
               </ContactsList>
             </div>
-            <div>
+            <BoxPriceInfo>
               <PriceInfo>Продолжительность одного сеанса</PriceInfo>
               <PriceInfo1>60мин</PriceInfo1>
-            </div>
+            </BoxPriceInfo>
           </InfoBox>
         </Box>
 
