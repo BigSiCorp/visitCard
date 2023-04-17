@@ -8,16 +8,22 @@ export const Box = styled.div`
 `;
 
 export const InfoBox = styled.div`
-  display: flex;
-  width: 945px;
-  margin-right: 15px;
   background: rgba(253, 249, 249, 0.86);
   border-radius: 15px;
-  justify-content: space-between;
+
   padding: 15px 35px;
   font-size: 24px;
 
   font-weight: ${p => p.theme.fontWeight.fw600};
+  @media (min-width: 768px) {
+    display: flex;
+    width: 945px;
+    padding: 15px 30px;
+    justify-content: space-between;
+  }
+  @media (min-width: 1280px) {
+    padding: 20px 60px;
+  }
 `;
 
 export const BoxTitle = styled.p`
@@ -25,7 +31,7 @@ export const BoxTitle = styled.p`
   justify-content: center;
   margin-bottom: 40px;
   margin-top: 20px;
-
+  text-align: center;
   font-weight: ${p => p.theme.fontWeight.fw700};
 `;
 
@@ -88,4 +94,10 @@ export const Icon = styled.img`
 `;
 export const ContactsIteam = styled.li`
   margin-bottom: 15px;
+  text-align: center;
+`;
+export const BoxPriceInfo = styled.div`
+  @media (min-width: 768px) and (max-width: 1279px) {
+    width: 340px;
+  }
 `;
