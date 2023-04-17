@@ -108,6 +108,7 @@ export const Container = styled.div`
 `;
 
 export const Section = styled.section`
+  /* position: relative; */
   min-height: 75vh;
   padding-top: 12px;
   padding-bottom: 10px;
