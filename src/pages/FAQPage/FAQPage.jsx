@@ -1,19 +1,28 @@
 import { useState } from 'react';
 import { Section } from 'utils/globalStyles';
-import { FAQList, FAQIteam, FAQTitle, FAQBox } from '../FAQPage/FAQPage.styled';
+import {
+  FAQList,
+  FAQIteam,
+  FAQTitle,
+  FAQBox,
+  // FAQBoxAnimated,
+} from '../FAQPage/FAQPage.styled';
 import { PageTitle } from '../../components/Common/PageTitle/PageTitle';
 
 export const FAQPage = () => {
   const [state, setState] = useState(false);
-  // const indicate = false;
-  // const changeOnClick = e => {
-  //   e.preventDefault();
-  //   console.dir(e.currentTarget.value);
-  //   if (e.currentTarget) {
-  //     setState(!state);
-  //     return true;
-  //   }
-  // };
+  const [indicate, setIndicate] = useState(null);
+
+  const changeOnClick = e => {
+    e.preventDefault();
+    const id = e.currentTarget.attributes.href.value;
+    if (id !== indicate) {
+      setIndicate(id);
+      setState(true);
+      return;
+    }
+    setState(!state);
+  };
   return (
     <main>
       <Section>
@@ -21,12 +30,12 @@ export const FAQPage = () => {
 
         <FAQList>
           <FAQIteam>
-            <a href="##" onClick={() => setState(!state)}>
+            <a href="1" onClick={changeOnClick}>
               <FAQTitle>
                 Як можна записатися на терапію? Яка тривалість сесії?
               </FAQTitle>
-              {state && (
-                <FAQBox>
+              {state && indicate === '1' && (
+                <FAQBox id="1">
                   <p>
                     Я працюю в телеграм,skype,instagram. Для запису напишіть
                     особисті повідомлення в телеграм або інстаграм. Тривалість
@@ -34,12 +43,13 @@ export const FAQPage = () => {
                   </p>
                 </FAQBox>
               )}
+              <FAQBox></FAQBox>
             </a>
           </FAQIteam>
           <FAQIteam>
-            <a href="##" onClick={() => setState(!state)}>
+            <a href="2" onClick={changeOnClick}>
               <FAQTitle>Навіщо працювати із психологом?</FAQTitle>
-              {state && (
+              {state && indicate === '2' && (
                 <FAQBox>
                   <p>
                     Психолог допомагає розібратися в собі, за допомогою питань
@@ -52,11 +62,11 @@ export const FAQPage = () => {
             </a>
           </FAQIteam>
           <FAQIteam>
-            <a href="##" onClick={() => setState(!state)}>
+            <a href="3" onClick={changeOnClick}>
               <FAQTitle>
                 Чи не буде розголошена інформація після роботи з психологом?
               </FAQTitle>
-              {state && (
+              {state && indicate === '3' && (
                 <FAQBox>
                   <p>
                     Конфіденційність перше правило для психолога, це невід'ємна
@@ -68,12 +78,12 @@ export const FAQPage = () => {
             </a>
           </FAQIteam>
           <FAQIteam>
-            <a href="##" onClick={() => setState(!state)}>
+            <a href="4" onClick={changeOnClick}>
               <FAQTitle>
                 Скільки разів потрібно ходити до психолога для опрацювання
                 однієї проблеми?
               </FAQTitle>
-              {state && (
+              {state && indicate === '4' && (
                 <FAQBox>
                   <p>
                     Для короткострокової роботи достатньо від 3 до 10 сеансів.
@@ -83,11 +93,11 @@ export const FAQPage = () => {
             </a>
           </FAQIteam>
           <FAQIteam>
-            <a href="##" onClick={e => setState(!state)}>
+            <a href="5" onClick={changeOnClick}>
               <FAQTitle>
                 Як підготувати себе до походу до психолога? Що я маю робити?
               </FAQTitle>
-              {state && (
+              {state && indicate === '5' && (
                 <FAQBox>
                   <p>
                     Бажано підготувати зошит і ручку для записів, але це не

@@ -19,6 +19,7 @@ export const FAQList = styled.ul`
   margin-bottom: 50px;
 `;
 export const FAQIteam = styled.li`
+  /* position: relative; */
   width: 499px;
   display: flex;
   flex-direction: column;
@@ -31,11 +32,24 @@ export const FAQIteam = styled.li`
 `;
 export const FAQTitle = styled.p`
   font-weight: 700;
-  text-alight: center;
+  text-align: center;
 `;
 
 export const FAQBox = styled.div`
   display: flex;
   align-items: center;
   flex-grow: 1;
+  /* transform: scale(1);
+  transition: transform 25000ms cubic-bezier(0.4, 0, 0.2, 1); */
+`;
+
+export const FAQBoxAnimated = styled.div`
+  position: absolute;
+
+  width: 600px;
+  background-color: orange;
+  opacity: 0.6;
+  left: 30%;
+  border-radius: 10px;
+  transform: scale(2) translateX(0%);
 `;
