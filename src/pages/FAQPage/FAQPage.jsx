@@ -1,8 +1,5 @@
 import { useState } from 'react';
 import { Section } from 'utils/globalStyles';
-// import styled, { keyframes } from 'styled-components';
-
-// import { bounceInDown } from 'react-animations';
 import {
   FAQList,
   FAQIteam,
@@ -12,10 +9,6 @@ import {
 import { PageTitle } from '../../components/Common/PageTitle/PageTitle';
 
 export const FAQPage = () => {
-  // const Bounce = styled.div`
-  //   animation: 2s ${keyframes`${bounceInDown}`};
-  // `;
-
   const [state, setState] = useState(false);
   const [indicate, setIndicate] = useState(null);
 
@@ -42,7 +35,6 @@ export const FAQPage = () => {
               </FAQTitle>
 
               {state && indicate === '1' && (
-                // <Bounce>
                 <FAQBoxAnimated id="1">
                   <FAQTitle>
                     Как можно записаться на терапию? Какая длительность сессии?
@@ -53,9 +45,7 @@ export const FAQPage = () => {
                     сессии 40-60 минут.
                   </p>
                 </FAQBoxAnimated>
-                //ounce>
               )}
-              {/* <FAQBoxAnimated>1</FAQBoxAnimated> */}
             </a>
           </FAQIteam>
           <FAQIteam>
