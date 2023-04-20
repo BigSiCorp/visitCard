@@ -54,6 +54,11 @@ ul, ol{
   padding-left: 0;
   list-style: none;
 }
+a{
+  list-style:none;
+  text-decoration:none;
+  color:black;
+}
 
 h1, h2, h3, h4, h5, p{
   margin-top: 0;
@@ -108,7 +113,6 @@ export const Container = styled.div`
 `;
 
 export const Section = styled.section`
-  /* position: relative; */
   min-height: 75vh;
   padding-top: 12px;
   padding-bottom: 10px;
